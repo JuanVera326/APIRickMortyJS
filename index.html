@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
+    <video id="my-video" class="video" autoplay muted loop>
+        <source src="/images/mylivewallpapers.com-Rick-N-Morty-Adventures.mp4" type="video/mp4">
+    </video>
     <img class="img1" src="/images/logo.png" alt="Logo">
+    <input type="text" id="input1" placeholder="Ingrese Nombre Personaje...." value="">
     <div id="section1">  
-        <div id="card"></div>
+        <div id="card" draggable="true"></div>
     </div>
+    <footer><h1>Juan Vera 2022&copy;</h1></footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 <script src="/index.js"></script>
 </html>
